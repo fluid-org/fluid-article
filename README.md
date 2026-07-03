@@ -8,10 +8,11 @@ Template repo for Fluid article websites, built with SvelteKit.
 ## Creating new article
 
 1. Create new repository from this template
-2. In repo Workflow Permissions settings, enable:
-   - Read and write permissions
-   - Create and approve pull requests
-3. Once `test-deploy` workflow succeeds, configure GitHub Pages to deploy from `gh-pages` branch
+2. In the repo, go to 'Settings' and from the left-hand side select 'Actions → General'. Scroll to 'Workflow Permissions' and:
+   - Select 'Read and write permissions'
+   - Tick 'Allow GitHub Actions to create and approve pull requests'
+   - Click 'Save'
+3. Configure GitHub pages from 'Settings → Pages' then under 'Build and deployment' set the 'Source' to be 'GitHub Actions'.
 
 ## Setup
 
