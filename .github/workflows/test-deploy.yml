@@ -56,4 +56,4 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        ./$FLUID_SCRIPT/util/test-deployed-website.sh https://explorable-viz.github.io/fluid-article website/article
+        ./$FLUID_SCRIPT/util/test-deployed-website.sh https://fluid-org.github.io/fluid-article website/article
