@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "fluid-org": {
+      "source": {
+        "source": "github",
+        "repo": "fluid-org/claude-plugins"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "conventions@fluid-org": true
+  }
+}
